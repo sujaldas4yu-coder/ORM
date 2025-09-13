@@ -36,18 +36,16 @@ class CarsRR_DB(models.Model):
 class CarsRR_DBAdmin(admin.ModelAdmin):
       list_display=["Car_model","Series","Color","Price","Fancy_number"]
 
-```
+
 admin.py
 
 from Django.contrib import admin
 from .models import CarsRR_DB,CarsRR_DBAdmin
 admin.site.register(CarsRR_DB,CarsRR_DBAdmin)
 
-
+```
 ## OUTPUT
-
-[env1](../Pictures/Screenshots)
-
+![alt text](<Screenshot 2025-09-13 142625.png>)
 
 ## RESULT
 Thus the program for creating car inventory database database using ORM hass been executed successfully
